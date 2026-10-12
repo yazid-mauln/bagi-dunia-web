@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "title": "Ruang Tumbuh: Belajar dari Komunitas yang Bergerak",
+    "slug": "ruang-tumbuh-belajar-dari-komunitas",
+    "excerpt": "Sebuah refleksi tentang bagaimana ruang komunitas menjadi tempat lahirnya gagasan dan gerakan yang mengubah kota.",
+    "content": "Di tengah hiruk pikuk kota, ada ruang-ruang kecil yang diam-diam menjadi tempat tumbuhnya gagasan besar. Komunitas adalah salah satu kekuatan terbesar dalam perubahan sosial. Ketika orang-orang dengan visi yang sama berkumpul dalam satu ruang, pertukaran ide yang terjadi sering kali melampaui ekspektasi semua pihak yang terlibat. Itulah mengapa Ruang Tumbuh hadir: bukan sekadar tempat pertemuan, tapi sebuah ekosistem tempat gagasan dipupuk, kolaborasi dirajut, dan aksi nyata dilahirkan.",
+    "category": "Refleksi",
+    "author": "Rini Kusuma",
+    "date": "2025-11-15",
+    "image": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800&h=500&fit=crop",
+    "tags": ["komunitas", "ruang tumbuh", "kolaborasi"]
+  },
+  {
+    "id": 2,
+    "title": "Catatan dari Forum Warga: Ketika Suara Rakyat Didengar",
+    "slug": "catatan-forum-warga-suara-rakyat",
+    "excerpt": "Dokumentasi dari serangkaian forum warga yang mempertemukan berbagai elemen masyarakat dalam dialog yang produktif.",
+    "content": "Forum warga bukan sekadar pertemuan. Ia adalah ruang di mana suara yang selama ini terpinggirkan mendapat tempat untuk didengar dan dipertimbangkan. Dalam seri forum yang kami selenggarakan sepanjang tahun lalu, kami menyaksikan bagaimana warga dari berbagai latar belakang — pedagang kaki lima, ibu rumah tangga, akademisi, hingga aktivis muda — duduk bersama dan merumuskan solusi atas permasalahan kota yang mereka hadapi sehari-hari.",
+    "category": "Catatan Kota",
+    "author": "Bagas Wicaksono",
+    "date": "2025-10-28",
+    "image": "https://images.unsplash.com/photo-1551434678-e076c223a692?w=800&h=500&fit=crop",
+    "tags": ["forum", "warga", "advokasi"]
+  },
+  {
+    "id": 3,
+    "title": "Kolaborasi sebagai Kunci: Pelajaran dari Program Bersama",
+    "slug": "kolaborasi-kunci-program-bersama",
+    "excerpt": "Apa yang terjadi ketika dua organisasi dengan latar belakang berbeda memutuskan untuk berkolaborasi? Ini ceritanya.",
+    "content": "Kolaborasi bukan selalu mudah. Ada perbedaan cara pandang, metode, dan tujuan yang harus didiskusikan dan disepakati. Namun hasilnya, jika dilakukan dengan baik, jauh melampaui apa yang bisa dicapai sendiri. Dalam program kolaborasi kami dengan Yayasan Peduli Anak dan Komunitas Belajar Bersama, kami belajar bahwa kunci dari kolaborasi yang berhasil bukan kesamaan cara kerja, tapi kesamaan nilai dan komitmen terhadap dampak.",
+    "category": "Program",
+    "author": "Maya Lestari",
+    "date": "2025-10-10",
+    "image": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800&h=500&fit=crop",
+    "tags": ["kolaborasi", "program", "komunitas"]
+  },
+  {
+    "id": 4,
+    "title": "Pendidikan Urban: Menyemai Kesadaran di Kota",
+    "slug": "pendidikan-urban-menyemai-kesadaran",
+    "excerpt": "Bagaimana pendidikan non-formal berbasis komunitas bisa menjadi solusi atas permasalahan sosial di perkotaan.",
+    "content": "Kota adalah ruang belajar yang paling kompleks. Di sinilah berbagai persoalan sosial bertemu, berbenturan, dan kadang menemukan jalan keluarnya melalui inisiatif-inisiatif kecil yang lahir dari komunitas. Program Belajar Bersama hadir untuk merespons kebutuhan akan pendidikan yang relevan, kontekstual, dan aksesibel bagi semua kalangan di perkotaan.",
+    "category": "Edukasi",
+    "author": "Sari Dewi",
+    "date": "2025-09-22",
+    "image": "https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?w=800&h=500&fit=crop",
+    "tags": ["pendidikan", "urban", "komunitas"]
+  },
+  {
+    "id": 5,
+    "title": "Teknologi untuk Komunitas: Peluang dan Tantangan",
+    "slug": "teknologi-untuk-komunitas",
+    "excerpt": "Eksplorasi tentang bagaimana teknologi digital dapat memperkuat gerakan komunitas tanpa menghilangkan esensi kemanusiaannya.",
+    "content": "Teknologi adalah alat, bukan tujuan. Ketika digunakan dengan bijak, ia bisa menjadi jembatan yang menghubungkan lebih banyak orang dalam gerakan yang bermakna. Namun ada bahaya yang mengintai: ketika teknologi menjadi tujuan utama, kita berisiko kehilangan esensi dari gerakan komunitas itu sendiri — yaitu hubungan manusia yang autentik dan kepercayaan yang dibangun dari interaksi nyata.",
+    "category": "Inovasi",
+    "author": "Dimas Pratama",
+    "date": "2025-09-05",
+    "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800&h=500&fit=crop",
+    "tags": ["teknologi", "digital", "komunitas"]
+  },
+  {
+    "id": 6,
+    "title": "Menjadi Relawan: Lebih dari Sekadar Membantu",
+    "slug": "menjadi-relawan-lebih-dari-membantu",
+    "excerpt": "Refleksi mendalam tentang makna kerelawanan dan bagaimana ia mengubah tidak hanya penerima manfaat, tetapi juga diri sendiri.",
+    "content": "Ketika kita menjadi relawan, kita sering berpikir bahwa kitalah yang akan memberi. Tapi kenyataannya, masyarakat dan komunitas yang kita dampingi justru mengajarkan kita jauh lebih banyak. Kerendahan hati, ketahanan, kreativitas dalam keterbatasan — semua ini adalah pelajaran yang tidak bisa didapat dari bangku sekolah manapun.",
+    "category": "Refleksi",
+    "author": "Andi Saputra",
+    "date": "2025-08-18",
+    "image": "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=800&h=500&fit=crop",
+    "tags": ["relawan", "dampak", "komunitas"]
+  }
+]

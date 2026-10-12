@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Rini Kusuma",
+    "role": "Ketua Program",
+    "bio": "Berpengalaman lebih dari 10 tahun dalam pengembangan komunitas urban dan advokasi sosial.",
+    "image": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&h=400&fit=crop&crop=face"
+  },
+  {
+    "id": 2,
+    "name": "Bagas Wicaksono",
+    "role": "Koordinator Komunitas",
+    "bio": "Aktif dalam gerakan komunitas berbasis kota selama 7 tahun terakhir.",
+    "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face"
+  },
+  {
+    "id": 3,
+    "name": "Sari Dewi",
+    "role": "Tim Edukasi",
+    "bio": "Pendidik dan fasilitator yang berfokus pada pembelajaran berbasis komunitas.",
+    "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop&crop=face"
+  },
+  {
+    "id": 4,
+    "name": "Dimas Pratama",
+    "role": "Tim Komunikasi",
+    "bio": "Spesialis komunikasi digital dan strategi media sosial untuk gerakan sosial.",
+    "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop&crop=face"
+  },
+  {
+    "id": 5,
+    "name": "Maya Lestari",
+    "role": "Tim Kolaborator",
+    "bio": "Menghubungkan organisasi dan komunitas untuk kolaborasi yang lebih bermakna.",
+    "image": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&h=400&fit=crop&crop=face"
+  },
+  {
+    "id": 6,
+    "name": "Andi Saputra",
+    "role": "Tim Relawan",
+    "bio": "Koordinator relawan lapangan dengan dedikasi tinggi pada pemberdayaan masyarakat.",
+    "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&crop=face"
+  }
+]

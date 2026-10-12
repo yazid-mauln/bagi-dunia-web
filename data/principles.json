@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "Trust",
+    "description": "Saling percaya untuk bertumbuh bersama. Membangun ruang yang aman, terbuka, dan saling menghargai untuk berbagi ide, cerita, dan langkah.",
+    "icon": "people"
+  },
+  {
+    "id": 2,
+    "title": "Sustainable",
+    "description": "Kebaikan yang tumbuh menjadi kebiasaan. Percaya bahwa perubahan tidak harus besar—yang penting bisa dilakukan, dijaga, dan terus tumbuh.",
+    "icon": "plant"
+  },
+  {
+    "id": 3,
+    "title": "Collective",
+    "description": "Karena perubahan tumbuh ketika dilakukan bersama. Mempertemukan jiwa-jiwa baik untuk saling berbagi, berkolaborasi, dan menciptakan dampak bagi sekitar.",
+    "icon": "globe"
+  }
+]

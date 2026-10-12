@@ -1,26 +1,173 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* ═══════════════════════════════════════════════
+   DESIGN SYSTEM — BAGI DUNIA
+   Earthy NGO palette: sage green primary,
+   warm off-white backgrounds, dark forest text
+═══════════════════════════════════════════════ */
+
+@theme {
+  /* Brand — Sage / Olive Green */
+  --color-brand-50:  #f6f7f0;
+  --color-brand-100: #eaecdc;
+  --color-brand-200: #d4d9b8;
+  --color-brand-300: #b8c08d;
+  --color-brand-400: #9aaa62;
+  --color-brand-500: #7d8f47;
+  --color-brand-600: #627238;
+  --color-brand-700: #4c5a2b;
+  --color-brand-800: #3a4421;
+  --color-brand-900: #2d3419;
+  --color-brand-950: #1a1f0e;
+
+  /* Earth — Warm Tan */
+  --color-earth-50:  #faf8f5;
+  --color-earth-100: #f2ede4;
+  --color-earth-200: #e6dccb;
+  --color-earth-300: #d4c3a3;
+  --color-earth-400: #bfa07a;
+  --color-earth-500: #a67c52;
+  --color-earth-600: #8b6342;
+  --color-earth-700: #6e4d33;
+  --color-earth-800: #543c28;
+  --color-earth-900: #3d2b1d;
+  --color-earth-950: #231810;
+
+  /* Fonts */
+  --font-serif: 'Playfair Display', Georgia, 'Times New Roman', serif;
+  --font-sans:  'Plus Jakarta Sans', 'Inter', system-ui, sans-serif;
+
+  /* Animation */
+  --animate-fade-up: fade-up 0.6s ease-out both;
+  --animate-fade-in: fade-in 0.4s ease-out both;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+/* ── Base ── */
+*, *::before, *::after { box-sizing: border-box; }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+html { scroll-behavior: smooth; }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);
+  background-color: #ffffff;
+  color: #2d3419;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ── Typography helpers ── */
+.font-display { font-family: var(--font-serif); }
+
+/* ── Line-clamp ── */
+.line-clamp-1 {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* ── Section label (eyebrow) ── */
+.section-label {
+  display: inline-block;
+  font-size: 0.6875rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #627238;
+}
+
+/* ── Divider accent ── */
+.divider-accent {
+  width: 3rem;
+  height: 2px;
+  background: #9aaa62;
+  border-radius: 999px;
+}
+
+/* ── Keyframes ── */
+@keyframes fade-up {
+  from { opacity: 0; transform: translateY(24px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@keyframes shimmer {
+  0%   { background-position: -200% 0; }
+  100% { background-position:  200% 0; }
+}
+
+/* ── Smooth image zoom on hover ── */
+.img-zoom { transition: transform 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94); }
+.img-zoom:hover { transform: scale(1.04); }
+
+/* ── Card base ── */
+.card-base {
+  background: #fff;
+  border: 1px solid #eaecdc;
+  border-radius: 1rem;
+  transition: box-shadow 0.25s ease, transform 0.25s ease;
+}
+.card-base:hover {
+  box-shadow: 0 8px 32px rgba(45, 52, 25, 0.10);
+  transform: translateY(-2px);
+}
+
+/* ── Button base ── */
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.75rem;
+  background: #627238;
+  color: #fff;
+  font-weight: 600;
+  font-size: 0.875rem;
+  border-radius: 9999px;
+  transition: background 0.2s ease, transform 0.15s ease;
+}
+.btn-primary:hover { background: #4c5a2b; transform: translateY(-1px); }
+
+.btn-outline {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.75rem;
+  background: transparent;
+  color: #627238;
+  font-weight: 600;
+  font-size: 0.875rem;
+  border: 2px solid #627238;
+  border-radius: 9999px;
+  transition: background 0.2s ease, color 0.2s ease, transform 0.15s ease;
+}
+.btn-outline:hover {
+  background: #627238;
+  color: #fff;
+  transform: translateY(-1px);
+}
+
+/* ── Focus ring for accessibility ── */
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid #9aaa62;
+  outline-offset: 3px;
+  border-radius: 4px;
 }

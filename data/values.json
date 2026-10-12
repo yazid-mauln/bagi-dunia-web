@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Kolaboratif",
+    "description": "Membangun jembatan antar individu, komunitas, dan organisasi untuk menciptakan dampak yang lebih luas.",
+    "icon": "handshake"
+  },
+  {
+    "id": 2,
+    "title": "Inklusif",
+    "description": "Membuka ruang bagi semua suara, memastikan tidak ada yang tertinggal dalam proses perubahan.",
+    "icon": "diversity"
+  },
+  {
+    "id": 3,
+    "title": "Berkelanjutan",
+    "description": "Merancang program dan aksi yang dapat terus hidup dan berkembang tanpa bergantung pada satu pihak.",
+    "icon": "sustainability"
+  },
+  {
+    "id": 4,
+    "title": "Berpihak pada Aksi",
+    "description": "Tidak berhenti pada wacana. Kami mendorong gerakan nyata yang mengubah kondisi sosial secara langsung.",
+    "icon": "action"
+  }
+]

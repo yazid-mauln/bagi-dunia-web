@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "title": "Ruang Tumbuh",
+    "slug": "ruang-tumbuh",
+    "category": "Jaringan & Kolaborasi",
+    "description": "Ruang pertemuan yang memfasilitasi kolaborasi antara komunitas, organisasi masyarakat sipil, dan individu yang ingin berkontribusi pada perubahan sosial.",
+    "longDescription": "Ruang Tumbuh adalah program inti Bagi Dunia yang menyediakan platform bagi berbagai elemen masyarakat untuk bertemu, berdiskusi, dan berkolaborasi. Program ini menyelenggarakan forum reguler, workshop, dan sesi berbagi pengetahuan yang dirancang untuk memperkuat kapasitas komunitas.",
+    "image": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800&h=500&fit=crop",
+    "highlights": ["Forum komunitas bulanan", "Workshop kapasitas", "Jaringan kolaborator", "Mentorship program"]
+  },
+  {
+    "id": 2,
+    "title": "Catatan Tumbuh",
+    "slug": "catatan-tumbuh",
+    "category": "Dokumentasi & Refleksi",
+    "description": "Platform dokumentasi dan refleksi yang merekam perjalanan komunitas, pelajaran yang dipetik, dan inspirasi untuk terus bergerak.",
+    "longDescription": "Catatan Tumbuh adalah inisiatif dokumentasi komunitas yang percaya bahwa setiap cerita perjuangan layak untuk diceritakan. Melalui artikel, podcast, dan laporan, kami merekam proses dan dampak gerakan komunitas di berbagai kota.",
+    "image": "https://images.unsplash.com/photo-1551434678-e076c223a692?w=800&h=500&fit=crop",
+    "highlights": ["Jurnal komunitas", "Laporan dampak", "Podcast cerita", "Riset aksi"]
+  },
+  {
+    "id": 3,
+    "title": "Forum Kota",
+    "slug": "forum-kota",
+    "category": "Advokasi & Dialog",
+    "description": "Seri dialog publik yang mempertemukan warga, praktisi, dan pemangku kebijakan untuk mendiskusikan isu-isu kota yang mendesak.",
+    "longDescription": "Forum Kota adalah wadah dialog yang inklusif, di mana perspektif dari berbagai lapisan masyarakat dipertemukan untuk merumuskan solusi atas permasalahan urban. Forum ini telah menghasilkan berbagai rekomendasi kebijakan yang diadopsi oleh pemerintah daerah.",
+    "image": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&h=500&fit=crop",
+    "highlights": ["Dialog publik kuartalan", "Policy brief", "Jaringan advokasi", "Partisipasi warga"]
+  },
+  {
+    "id": 4,
+    "title": "Belajar Bersama",
+    "slug": "belajar-bersama",
+    "category": "Edukasi",
+    "description": "Program pendidikan non-formal yang menyediakan akses belajar bagi anak-anak dan remaja di komunitas marjinal perkotaan.",
+    "longDescription": "Belajar Bersama hadir karena kami percaya bahwa setiap anak berhak atas pendidikan berkualitas, terlepas dari latar belakang ekonominya. Program ini menggabungkan kurikulum akademik dengan pengembangan karakter dan kecakapan hidup.",
+    "image": "https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?w=800&h=500&fit=crop",
+    "highlights": ["Kelas rutin", "Beasiswa pendampingan", "Pelatihan fasilitator", "Jaringan sekolah mitra"]
+  }
+]
